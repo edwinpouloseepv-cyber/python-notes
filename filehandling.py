@@ -34,5 +34,6 @@
 #f = open("sample.txt4", "w+")
 #f.write("Hello World\n")
 #f.close()
-with open("sample5.txt", "w") as f:
-    f.write("Hello World\n")    
+#with open("sample5.txt", "w") as f:
+#    f.write("Hello World\n")
+#     
