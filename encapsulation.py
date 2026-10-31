@@ -34,17 +34,17 @@
 # s.my_marks()
 
 
-class Student:
-    def __init__(self):
-        self.__marks = 80
-    def get_marks(self):
-        return self.__marks
-    def set_marks(self,value):
-        if value < 0:
-            print("invalid")
-        else:
-            self.__marks = value
-s = Student()
-print(s.get_marks())
-s.set_marks(-1)
-print(s.get_marks())
+# class Student:
+#     def __init__(self):
+#         self.__marks = 80
+#     def get_marks(self):
+#         return self.__marks
+#     def set_marks(self,value):
+#         if value < 0:
+#             print("invalid")
+#         else:
+#             self.__marks = value
+# s = Student()
+# print(s.get_marks())
+# s.set_marks(-1)
+# print(s.get_marks())
